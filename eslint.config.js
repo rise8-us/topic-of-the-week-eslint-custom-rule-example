@@ -15,6 +15,7 @@ export default [
     },
     rules: {
       "custom/no-console-log": "error",
+      "custom/enforce-test-cases": "error",
     },
   },
 ];

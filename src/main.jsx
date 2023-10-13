@@ -5,6 +5,10 @@ import "./index.css";
 
 console.log("Hello from main.jsx!");
 
+function doNothing() {
+  console.log("Doing nothing");
+}
+
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <App />
